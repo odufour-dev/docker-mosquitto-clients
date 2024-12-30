@@ -10,7 +10,7 @@ Build the image
 
 To create this image, execute the following command in the docker-mosquitto-clients folder.
 
-    docker build -t cburki/mosquitto-clients .
+    docker build -t mqt-client .
 
 
 Run the image
@@ -23,5 +23,5 @@ The example below will show you how to get the help for the mosquitto_pub progra
         --rm \
         -i \
         -t \
-        cburki/mosquitto-clients \
+        mqtt-client \
         mosquitto_pub --help
